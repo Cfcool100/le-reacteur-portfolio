@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+
+.header > ul {
+	list-style-type: none;
+	height: 4.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+}
+
+.header > ul > li:hover {
+	height: 4.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: #063970 4px solid;
+}
+
+.header > a {
+	width: 140px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.cover {
+	height: 400px;
+}
+
+.bg-cover {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.profile {
+	display: flex;
+
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: 4.5rem;
+}
+#about-me {
+	padding: 100px 100px 30px 100px;
+}
+
+.profile-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	object-fit: fill;
+}
+
+.profile-name {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+}
+
+#name {
+	font: 32px sans-serif;
+	margin-bottom: 30px;
+	font-weight: 550;
+}
+#address {
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: #312e2e;
+	font-style: italic;
+}
+.about {
+	margin-bottom: 2rem;
+}
+.description-1 {
+	text-align: justify;
+	line-height: 1.9rem;
+}
+.description-2 {
+	text-align: justify;
+	line-height: 1.9rem;
+}
+#formation,
+#contact {
+	background-color: #eeeef7;
+}
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+}
+.current-formation {
+	width: 85%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.sous-titre {
+	margin-block: 80px;
+	text-align: center;
+	line-height: 30px;
+}
+.sous-titre span {
+	font-weight: bold;
+}
+
+.skill {
+	height: 100px;
+}
+
+.next-formation {
+	width: 55%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.project {
+	display: flex;
+	align-items: center;
+	margin-block: 90px;
+}
+.preview {
+	width: 500px;
+	margin-right: 80px;
+}
+.preview img {
+	width: 100%;
+}
+
+.info > h3 {
+	margin-bottom: 1.3rem;
+}
+.info > p {
+	margin-bottom: 0.7rem;
+	font-size: 14px;
+	font-weight: bolder;
+}
+ul > li {
+	line-height: 1.9rem;
+}
+
+.section > .title {
+	margin-bottom: 75px;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	/* border: #312e2e 1px solid; */
+}
+.contact {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+svg {
+	margin-right: 10px;
+}
+.contact:hover,
+a:hover {
+	color: #063970;
+}
